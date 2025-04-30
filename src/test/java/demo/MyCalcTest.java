@@ -18,5 +18,11 @@ public class MyCalcTest {
 		MyCalc calc = new MyCalc();
 		assertEquals(10,calc.diff(20,10));
 	}
+	@Test
+	public void testMul()
+	{
+		MyCalc calc = new MyCalc();
+		assertEquals(200,calc.mul(20,10));
+	}
 	
 }
